@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width:100%;
+    background-color:#f2f2f2;
+}
+.main-container{
+    filter: blur(6px);
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid #d9d9d9;
+    background-color: white;
+    margin-top: 100px;
+    position:relative;
+    
+}
+
+.fa-arrow-circle-left{
+    float: left;
+    margin-top: 25px;
+    margin-left: 18px;
+    font-size: 32px;
+    color: #cc2900;
+
+}
+
+.trips{
+   float: left;
+   margin-top: 20px;
+   padding-left: 30px;
+   font-size: 30px;
+   font-weight: bolder;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.content-box{
+    margin: auto;
+    width: 280px;
+    height: 350px;
+    border: 1px solid #ffad99;
+    margin-top: 100px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 4px 4px 5px gainsboro;
+    
+}
+
+.parises{
+    text-align: center;
+    padding-top: 20px;
+    color: #cc2900;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.line{
+    width: 200px;
+    float: right;
+    padding-top: 12px;
+}
+
+.cutpara{
+    padding-top: 30px;
+    padding-left: 70px;
+    font-size: 20px;
+    color: #cc2900;
+    font-weight: bold;
+    text-decoration-line: line-through;
+    text-decoration-color: #cc2900;
+}
+
+.checkboxes{
+    padding-top: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #404040;
+}
+
+.bottom-icon{
+    position: absolute;
+    color: #cc2900;
+    bottom: 10px;
+    right: 10px;
+    font-size: 25px;
+}
+
+.pop-section{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(226, 90, 90);
+    margin-top: -340px;
+    margin-left: 530px;
+    position: absolute;
+    border-radius: 10px;
+    
+}
+
+.textlist{
+    text-align: center;
+    padding-top: 20px;
+    color:rgb(226, 90, 90);;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input_text{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 45px;
+    border: 1px solid rgb(226, 90, 90);
+    border-radius: 5px;
+
+}
+
+.button_add{
+    border:1px solid red;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    padding-top:10px;
+    margin-top: 20px;
+    background-color:#e24b25;
+    color: white;
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+.main-container{
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid #d9d9d9;
+    background-color: white;
+    margin-top: 100px;
+    position:relative;
+    
+}
+
+
+}
